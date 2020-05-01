@@ -397,8 +397,8 @@ extern "C" void* ThreadStats(void*) {
   return nullptr;
 }
 
-static const string mainnet_seeds[] = {"seed1.audaxproject.io", "seed2.audaxproject.io", ""};
-static const string testnet_seeds[] = {"seed1.audaxproject.io", "seed2.audaxproject.io", ""};
+static const string mainnet_seeds[] = {"dns0.audaxproject.io", ""};
+static const string testnet_seeds[] = {""};
 static const string *seeds = mainnet_seeds;
 
 extern "C" void* ThreadSeeder(void*) {
